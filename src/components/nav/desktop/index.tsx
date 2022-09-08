@@ -10,9 +10,7 @@ const DesktopNav: NextPage<NavProps> = () => {
       <nav className="flex  items-center justify-center h-16 mb-8">
         {menu.map((e) => (
           <span key={e.name} className="text-text p-2">
-            <Link key={e.name} href={e.src}>
-              {e.name}
-            </Link>
+            <Link href={e.src}>{e.name}</Link>
           </span>
         ))}
       </nav>
