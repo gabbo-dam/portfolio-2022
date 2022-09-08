@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 // import Footer from '@components/footer';
 
 type LayoutProps = {
-  children: JSX.Element;
+  children: any;
 };
 
 const Layout: NextPage<LayoutProps> = ({ children }) => {

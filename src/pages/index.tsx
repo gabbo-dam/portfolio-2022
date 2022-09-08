@@ -60,7 +60,7 @@ const Home: NextPage = () => {
         </div>
         <div className="w-full flex gap-4 lg:gap-0 flex-col justify-between">
           {cardInfo.map((e) => (
-            <HomeCard className="" title={`${e.title}`} description={`${e.description}`} img={`/${e.img}`} link={e.link} />
+            <HomeCard key={e.title} className="" title={`${e.title}`} description={`${e.description}`} img={`/${e.img}`} link={e.link} />
           ))}
         </div>
       </div>
