@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import type { NextPage } from 'next';
 import Link from 'next/link';
 import { NavProps } from '../types';
@@ -9,9 +10,11 @@ const DesktopNav: NextPage<NavProps> = () => {
       <div>Logo</div>
       <nav className="flex  items-center justify-center h-16 mb-8">
         {menu.map((e) => (
-          <span key={e.name} className="text-text p-2">
-            <Link href={e.src}>{e.name}</Link>
-          </span>
+          <Fragment key={e.name}>
+            <span className="text-text p-2">
+              <Link href={e.src}>{e.name}</Link>
+            </span>
+          </Fragment>
         ))}
       </nav>
       <div>Media</div>
