@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
-import { DesktopNav, MobileNav } from '@components/nav';
-import Footer from '@components/footer';
+// import { DesktopNav, MobileNav } from '@components/nav';
+// import Footer from '@components/footer';
 
 type LayoutProps = {
   children: JSX.Element;

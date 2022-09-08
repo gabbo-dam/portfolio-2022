@@ -1,12 +1,11 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import { CardProps } from '../types';
 
 const HomeCard: NextPage<CardProps> = ({ title, description, img, className, link }) => {
   return (
     <div className={`${className} cursor-pointer `}>
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noreferrer">
         <div className={`flex flex-col-reverse lg:flex-row justify-between rounded-lg bg-[#000] hover:border-white border border-[#333]  `}>
           <div className="p-4">
             <h3 className="text-xl font-semibold mb-3">{title}</h3>

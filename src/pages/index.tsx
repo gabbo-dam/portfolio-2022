@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
-import { ContainedButton } from '@components/buttons';
 import { HomeCard } from '@components/cards';
 
 const Home: NextPage = () => {
@@ -51,10 +50,10 @@ const Home: NextPage = () => {
             Passionate about education and technology, which leads me to be in constant learning and growth. I dedicated myself to create web applications and interfaces with functionality.
           </p>
           <div className="flex justify-center gap-4">
-            <a href="https://github.com/gabbo-dam" target="_blank">
+            <a href="https://github.com/gabbo-dam" target="_blank" rel="noreferrer">
               Github
             </a>
-            <a href="https://www.linkedin.com/in/gabbo-mv/" target="_blank">
+            <a href="https://www.linkedin.com/in/gabbo-mv/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
           </div>
