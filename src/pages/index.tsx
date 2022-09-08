@@ -7,26 +7,26 @@ const Home: NextPage = () => {
     {
       title: 'Hakuswap',
       description: 'Premier DEX AMM on Avalanche Network',
-      img: 'hakuswap.png',
+      img: 'hakuswap.PNG',
       link: 'https://hakuswap.com/',
     },
 
     {
       title: 'Sahara DAO',
       description: 'Fractional-Algorithmic Synthetic Token',
-      img: 'sahara.png',
+      img: 'sahara.PNG',
       link: 'https://sahara-dao.vercel.app/',
     },
     {
       title: 'Collection Capitol',
       description: 'NFT Marketplace on the BNB Chain',
-      img: 'collectioncapitol.png',
+      img: 'collectioncapitol.PNG',
       link: 'https://collectioncapitol.com/',
     },
     {
       title: 'WeShip',
       description: 'E-Commerce Fulfillment, Storage & Logistics',
-      img: 'weship.png',
+      img: 'weship.PNG',
       link: 'https://www.weship.eu/',
     },
   ];
